@@ -4,15 +4,20 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlumerVidComponent } from './blumer-vid/blumer-vid.component';
+import { HlsComponent } from './hls/hls.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlumerVidComponent,
+    HlsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

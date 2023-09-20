@@ -3,13 +3,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { BlumerVidComponent } from './blumer-vid/blumer-vid.component';
 
 const routes: Routes = [
   {
-    path: 'post/:id',
-    component: AppComponent
+    path: ':id',
+    component: BlumerVidComponent
   },
-  // Otras rutas aquí si es necesario
 ];
 
 @NgModule({
